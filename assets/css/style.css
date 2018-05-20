@@ -1,0 +1,70 @@
+
+ * {
+   
+    text-align: center;
+  }
+  
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+  }
+  
+  header {
+    float: left;
+    top:0;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #ccc;
+  }
+
+  #name {
+    float: left;
+    margin-left: 290px;
+    background: gray;
+  }
+
+  #navigation {
+    float: right;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 270px;
+    width: 33.3;
+    color: #fff;
+    background: #666;
+  }
+  
+
+  #bio{
+    clear: both;
+    margin-left: 290px;
+    width: 960px;
+    overflow: auto;
+    background: #eee;
+  }
+
+  #aboutme{
+    float: left;
+  }
+    
+  aside {
+    float: left;
+    width: 33%;
+    height: 200px;
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 30px;
+    background: #fff;
+    border: 1px solid #eee;
+  }
+  
+  footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   
+    background:#6cf;
+ }
