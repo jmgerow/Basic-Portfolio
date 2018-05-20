@@ -1,70 +1,106 @@
 
  * {
-   
     text-align: center;
+    
+
   }
   
   body {
-    font-size: 24px;
+    font-size: 16px;
     line-height: 32px;
-    color: #333;
+    color: rgb(7, 7, 7);
+    background-image: url("../images/what-the-hex.png");
   }
   
   header {
     float: left;
+    position: fixed;
     top:0;
+    left:0;
     width: 100%;
+    height: 90px;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     color: #333;
-    background: #ccc;
+    background: #ffffff;
   }
 
   #name {
+    clear: both;
+    position: absolute;
     float: left;
-    margin-left: 290px;
-    background: gray;
+    left: 300PX;
+    padding: 20px;
+    height:50px;
+    vertical-align: center;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
   }
 
   #navigation {
-    float: right;
+    float: left;
+    position: absolute;
+    top: 0px;
+    right: 260px;
     padding: 5px;
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-right: 270px;
     width: 33.3;
-    color: #fff;
-    background: #666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background: #ffffff;
   }
   
+  a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+  }
 
   #bio{
     clear: both;
+    margin-top:150px;
     margin-left: 290px;
+    margin-bottom: 100px;
     width: 960px;
     overflow: auto;
     background: #eee;
+    border: 20px;
+    border-color: #dddddd;
   }
 
   #aboutme{
     float: left;
+    padding: 20px;
+    margin-bottom: -50px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
   }
     
-  aside {
+  #photo {
     float: left;
-    width: 33%;
+    
+    top: 200px;
     height: 200px;
-    padding: 20px;
+    padding: 0px;
     margin-top: 0px;
-    margin-left: 30px;
+    margin-left: 0px;
     background: #fff;
     border: 1px solid #eee;
   }
+
+  #paragraph{
+    
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
   
   footer {
-    position:absolute;
-    bottom:0;
+    clear: both;
+    position: static;
+    bottom: 0px;
+    left: 0px;
+    margin-top: -50px;
     width:100%;
     height:60px;   
-    background:#6cf;
+    background:#666666;
  }
